@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\landon.ginn\\webdev\\APIPractice\\api\\api.csproj": {}
+    "C:\\Users\\landon.ginn\\webdev\\API-Practice\\APIPractice\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\landon.ginn\\webdev\\APIPractice\\api\\api.csproj": {
+    "C:\\Users\\landon.ginn\\webdev\\API-Practice\\APIPractice\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\landon.ginn\\webdev\\APIPractice\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\landon.ginn\\webdev\\API-Practice\\APIPractice\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\landon.ginn\\webdev\\APIPractice\\api\\api.csproj",
+        "projectPath": "C:\\Users\\landon.ginn\\webdev\\API-Practice\\APIPractice\\api\\api.csproj",
         "packagesPath": "C:\\Users\\landon.ginn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\landon.ginn\\webdev\\APIPractice\\api\\obj\\",
+        "outputPath": "C:\\Users\\landon.ginn\\webdev\\API-Practice\\APIPractice\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

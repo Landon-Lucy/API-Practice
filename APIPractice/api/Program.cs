@@ -17,8 +17,8 @@ var fileString = "";
 
 app.MapPost("/fileUpload", (FileUploadRequestBody body) =>
 {
-    Console.WriteLine("In file Upload");
-    Console.WriteLine(body.Base64File);
+    // Console.WriteLine("In file Upload");
+    // Console.WriteLine(body.Base64File);
     fileString = body.Base64File;
 });
 
@@ -31,5 +31,5 @@ app.Run();
 
 
 public record FileUploadRequestBody(
-    string Base64File
+    string Base64File, string Name
 );

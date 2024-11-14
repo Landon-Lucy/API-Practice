@@ -8,7 +8,7 @@ export const getSomethingFromAPI = async () => {
 
 export const storeFileOnApi = async (fileAsString) => {
   const body = {
-    "base64File": fileAsString,
+    base64File: fileAsString,
   };
   await fetch(baseUrl + "fileUpload", {
     method: "POST",
@@ -17,4 +17,12 @@ export const storeFileOnApi = async (fileAsString) => {
       "Content-Type": "application/json",
     },
   });
+};
+
+export const getBase64FileFromApi = async () => {
+  const url = baseUrl + "file";
+
+  const response = await fetch(url);
+
+  return await response.text()
 };
